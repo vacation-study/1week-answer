@@ -46,7 +46,7 @@ function Assignment() {
               {arr.map(item => (
                 <div key={item.state1}>
                   {["state1", "state2", "state3", "state4"].map(itemA => (
-                    <div key={itemA + Math.ra}>{item[itemA]}</div>
+                    <div key={itemA + Math.random()}>{item[itemA]}</div>
                   ))}
                 </div>
               ))}
