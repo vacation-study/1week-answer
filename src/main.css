@@ -1,0 +1,23 @@
+.main_header {
+    display: flex;
+    background-color:#a2a2f9 ;
+    justify-content: space-between;
+    height: 49px;
+}
+.footer_b{
+    background-color: #a2a2f9;
+    cursor: pointer;
+    height: 10vh;
+}
+.main_a{
+    height: 90vh;
+}
+.mapprint{
+    display: flex;
+}
+.mapprintin{
+    padding-right: 30px;
+}
+.modalbutton{
+    display: flex;
+}
