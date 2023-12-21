@@ -44,7 +44,7 @@ function Assignment() {
             </section>
             <section className="mapprint">
               {arr.map(item => (
-                <div key={item.state1}>
+                <div key={item.state1+ Math.random()}>
                   {["state1", "state2", "state3", "state4"].map(itemA => (
                     <div key={itemA + Math.random()}>{item[itemA]}</div>
                   ))}
